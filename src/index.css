@@ -9,43 +9,44 @@ body {
 h1 {
   text-align: center;
   color: #333;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
+/* Mensaje de Error */
 .mensaje {
   color: #d9534f;
   text-align: center;
-  font-size: 1.2em;
-  margin: 20px;
+  font-size: 1em;
+  margin: 10px;
 }
 
 /* Formulario Cliente */
 .formulario-cliente {
   background-color: white;
-  padding: 20px;
-  max-width: 400px;
+  padding: 15px;
+  max-width: 350px;
   margin: 20px auto;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .formulario-cliente input {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 8px;
+  margin-bottom: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .formulario-cliente button {
   width: 100%;
-  padding: 10px;
+  padding: 8px;
   background-color: #5bc0de;
   color: white;
   border: none;
   border-radius: 4px;
-  font-size: 1em;
+  font-size: 0.9em;
   cursor: pointer;
 }
 
@@ -62,23 +63,24 @@ h1 {
 
 .lista-clientes li {
   background-color: white;
-  padding: 15px;
-  margin: 10px 0;
+  padding: 10px;
+  margin: 8px 0;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 0.9em;
 }
 
 .lista-clientes button {
   background-color: #f0ad4e;
   color: white;
   border: none;
-  padding: 5px 10px;
+  padding: 5px 8px;
   border-radius: 4px;
   cursor: pointer;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 .lista-clientes button:hover {
