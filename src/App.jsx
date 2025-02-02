@@ -15,7 +15,7 @@ const App = () => {
 
       {/* Rutas */}
       <Routes>
-        <Route path="/clientes" element={<ClientesView />} />
+        <Route path="/" element={<ClientesView />} /> {/* Cambié aquí el path */}
       </Routes>
     </Router>
   );
