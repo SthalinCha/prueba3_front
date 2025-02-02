@@ -1,4 +1,4 @@
-/* Estilos generales */
+/* Estilos Generales */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f9;
@@ -12,14 +12,15 @@ h1 {
   margin-top: 20px;
 }
 
-#mensaje {
+.mensaje {
   color: #d9534f;
   text-align: center;
   font-size: 1.2em;
+  margin: 20px;
 }
 
-/* Formulario de cliente */
-#formulario-cliente {
+/* Formulario Cliente */
+.formulario-cliente {
   background-color: white;
   padding: 20px;
   max-width: 400px;
@@ -28,7 +29,7 @@ h1 {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-#formulario-cliente input {
+.formulario-cliente input {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -37,12 +38,7 @@ h1 {
   font-size: 1em;
 }
 
-#formulario-cliente input:focus {
-  outline: none;
-  border-color: #5bc0de;
-}
-
-#submit-cliente {
+.formulario-cliente button {
   width: 100%;
   padding: 10px;
   background-color: #5bc0de;
@@ -53,23 +49,18 @@ h1 {
   cursor: pointer;
 }
 
-#submit-cliente:hover {
+.formulario-cliente button:hover {
   background-color: #31b0d5;
 }
 
-#submit-cliente:disabled {
-  background-color: #ccc;
-  cursor: not-allowed;
-}
-
-/* Lista de clientes */
-#lista-clientes {
+/* Lista de Clientes */
+.lista-clientes {
   list-style-type: none;
   padding: 0;
   margin-top: 20px;
 }
 
-#lista-clientes li {
+.lista-clientes li {
   background-color: white;
   padding: 15px;
   margin: 10px 0;
@@ -80,7 +71,7 @@ h1 {
   align-items: center;
 }
 
-#lista-clientes li button {
+.lista-clientes button {
   background-color: #f0ad4e;
   color: white;
   border: none;
@@ -90,23 +81,6 @@ h1 {
   margin-left: 10px;
 }
 
-#lista-clientes li button:hover {
+.lista-clientes button:hover {
   background-color: #ec971f;
-}
-
-#lista-clientes li button:active {
-  background-color: #d58512;
-}
-
-/* Estilos para los campos de formulario de solo lectura */
-#formulario-cliente input[disabled] {
-  background-color: #f8f8f8;
-  cursor: not-allowed;
-  color: #888;
-}
-
-/* Título y mensajes */
-#titulo-gestion-clientes {
-  font-size: 2em;
-  margin-bottom: 10px;
 }
